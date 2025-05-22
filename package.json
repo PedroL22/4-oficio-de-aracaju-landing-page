@@ -9,12 +9,19 @@
     "lint": "biome lint --write",
     "format": "biome format --write",
     "typecheck": "tsc -b --watch",
-       "prepare": "husky"
+    "prepare": "husky"
   },
   "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.11",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
@@ -24,6 +31,7 @@
     "@types/react-dom": "^19",
     "husky": "^9.1.7",
     "tailwindcss": "^4",
+    "tw-animate-css": "^1.3.0",
     "typescript": "^5"
   }
 }
