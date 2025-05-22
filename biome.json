@@ -9,7 +9,8 @@
       "public/**/*.js",
       "tsconfig*.json",
       "**/routeTree.gen.ts",
-      "coverage/**"
+      "coverage/**",
+      ".next/**"
     ]
   },
   "formatter": {
