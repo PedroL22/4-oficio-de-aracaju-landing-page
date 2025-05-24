@@ -15,20 +15,20 @@ export function InventorySection() {
           </p>
         </div>
 
-        <div className='mb-12 flex flex-col gap-8 md:flex-row'>
+        <div className='mx-auto mb-12 flex w-fit flex-col gap-8 md:flex-row'>
           <Image
-            src='/inventory-comfort.jpg'
+            src='/stock/pessoas_se_consolando_durante_processo_de_inventário.jpg'
             alt='Pessoas se consolando durante processo de inventário'
-            width={500}
+            width={400}
             height={300}
-            className='rounded-lg'
+            className='h-[300px] w-[400px] rounded-lg object-cover'
           />
           <Image
-            src='/inventory-document.jpg'
-            alt='Pessoa analisando documentos de inventário'
-            width={500}
+            src='/stock/pessoas_analisando_documentos_de_inventario.png'
+            alt='Pessoas analisando documentos de inventário'
+            width={400}
             height={300}
-            className='rounded-lg'
+            className='h-[300px] w-[400px] rounded-lg object-cover'
           />
         </div>
 
