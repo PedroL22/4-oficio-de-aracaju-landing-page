@@ -15,6 +15,8 @@ export const Header = () => {
             height={40}
             className='h-10 w-auto'
           />
+
+          <p className='font-bold text-[#8B0000] text-sm lg:text-lg'>4º Ofício de Registro Civil e Notas</p>
         </Link>
 
         <nav className='hidden gap-6 md:flex'>
@@ -22,15 +24,15 @@ export const Header = () => {
             Início
           </Link>
 
-          <Link href='#registro-civil' className='font-medium text-sm underline-offset-4'>
+          <Link href='registro-civil' className='font-medium text-sm underline-offset-4'>
             Registro Civil
           </Link>
 
-          <Link href='#tabelionato' className='font-medium text-sm underline-offset-4'>
+          <Link href='tabelionato' className='font-medium text-sm underline-offset-4'>
             Tabelionato de Notas
           </Link>
 
-          <Link href='#contato' className='font-medium text-sm underline-offset-4'>
+          <Link href='contato' className='font-medium text-sm underline-offset-4'>
             Contato
           </Link>
 

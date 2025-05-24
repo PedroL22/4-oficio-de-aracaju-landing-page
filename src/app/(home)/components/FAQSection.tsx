@@ -6,7 +6,7 @@ export const FAQSection = () => {
       <div className='w-full px-4 md:px-6'>
         <div className='mx-auto w-full max-w-[570px] space-y-6'>
           <div className='space-y-2 text-center'>
-            <h2 className='font-bold text-3xl text-[#8B0000] tracking-tighter sm:text-4xl'>Perguntas Frequentes</h2>
+            <h6 className='font-bold text-3xl text-[#8B0000] tracking-tighter sm:text-4xl'>Perguntas Frequentes</h6>
 
             <p className='text-zinc-500 md:text-xl'>Respostas para as dúvidas mais comuns sobre nossos serviços.</p>
           </div>

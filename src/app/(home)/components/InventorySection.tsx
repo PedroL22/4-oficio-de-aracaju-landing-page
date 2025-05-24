@@ -6,7 +6,7 @@ export function InventorySection() {
     <section id='inventario' className='flex w-full justify-center py-12 md:py-24 lg:py-32'>
       <div className='w-full max-w-[1280px] px-4 md:px-6'>
         <div className='mb-8'>
-          <h2 className='mb-2 font-bold text-3xl text-[#8B0000]'>Inventário e Partilha Extrajudiciais</h2>
+          <p className='mb-2 font-bold text-3xl text-[#8B0000]'>Inventário e Partilha Extrajudiciais</p>
 
           <p className='text-zinc-500 md:text-xl'>
             As pessoas maiores e capazes podem fazer o inventário e partilha de bens por escritura pública. O inventário
@@ -34,7 +34,7 @@ export function InventorySection() {
 
         <div className='space-y-8'>
           <div>
-            <h3 className='font-medium text-lg'>O que é inventário e partilha?</h3>
+            <p className='font-medium text-lg'>O que é inventário e partilha?</p>
             <p className='text-sm text-zinc-500'>
               O inventário é o documento com a apuração do patrimônio deixado pela pessoa falecida. Já a partilha é
               feita a partir do inventário e consiste na divisão do patrimônio relatado para filhos e cônjuge ou
@@ -43,7 +43,7 @@ export function InventorySection() {
           </div>
 
           <div>
-            <h3 className='font-medium text-lg'>O que é preciso para fazer um inventário e a partilha?</h3>
+            <p className='font-medium text-lg'>O que é preciso para fazer um inventário e a partilha?</p>
             <p className='text-sm text-zinc-500'>
               Com o falecimento de uma pessoa que tenha ou não deixado bens, os herdeiros capazes, maiores de idade e
               que estejam de acordo quanto à divisão dos bens, podem providenciar o ato.
@@ -51,14 +51,14 @@ export function InventorySection() {
           </div>
 
           <div>
-            <h3 className='font-medium text-lg'>Quem deve comparecer?</h3>
+            <p className='font-medium text-lg'>Quem deve comparecer?</p>
             <p className='text-sm text-zinc-500'>
               Herdeiros e cônjuge ou companheiro vivo (se houver), acompanhados de seu advogado.
             </p>
           </div>
 
           <div>
-            <h3 className='font-medium text-lg'>O que é nomeação de inventariante?</h3>
+            <p className='font-medium text-lg'>O que é nomeação de inventariante?</p>
             <p className='text-sm text-zinc-500'>
               Antes de providenciar o inventário é possível eleger uma pessoa para representar o espólio, com poderes de
               inventariante, perante as repartições públicas, bem como para cumprimento de obrigações deixadas pelo

@@ -19,11 +19,11 @@ export const HeroSection = () => {
             </p>
 
             <div className='flex flex-col gap-2 min-[400px]:flex-row'>
-              <Link href='#registro-civil'>
+              <Link href='registro-civil'>
                 <Button className='bg-[#8B0000] hover:bg-[#6B0000]'>Registro Civil</Button>
               </Link>
 
-              <Link href='#tabelionato'>
+              <Link href='tabelionato'>
                 <Button variant='outline' className='border-[#8B0000] text-[#8B0000] hover:bg-[#8B0000]/10'>
                   Tabelionato de Notas
                 </Button>
@@ -33,7 +33,7 @@ export const HeroSection = () => {
 
           <div className='mx-auto aspect-video w-full max-w-[500px] overflow-hidden rounded-xl'>
             <Image
-              src='/placeholder.svg?height=500&width=800'
+              src='/logotype.png'
               width={800}
               height={500}
               alt='Fachada do 4º Ofício de Registro Civil e Notas de Aracaju/SE'

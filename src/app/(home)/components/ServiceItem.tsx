@@ -26,7 +26,7 @@ export const ServiceItem = ({ id, title, description, pdfLink, children }: Servi
     <AccordionItem value={id} className='mb-4 overflow-hidden rounded-lg p-1 ring ring-zinc-200'>
       <AccordionTrigger className='px-4 py-3 hover:no-underline'>
         <div className='flex flex-col items-start text-left'>
-          <h3 className='font-medium text-lg'>{title}</h3>
+          <h2 className='font-medium text-lg'>{title}</h2>
 
           <p className='text-sm text-zinc-500'>{description}</p>
         </div>
@@ -62,7 +62,7 @@ export const ServiceItem = ({ id, title, description, pdfLink, children }: Servi
 
               <div className='mt-4 space-y-4'>
                 <div>
-                  <h4 className='font-medium'>Quanto tempo demora para ficar pronto?</h4>
+                  <h3 className='font-medium'>Quanto tempo demora para ficar pronto?</h3>
 
                   <p className='text-sm text-zinc-600'>
                     O tempo de processamento varia conforme o serviço. Certidões simples geralmente são emitidas no
@@ -80,7 +80,7 @@ export const ServiceItem = ({ id, title, description, pdfLink, children }: Servi
                 </div>
 
                 <div>
-                  <h4 className='font-medium'>Quais formas de pagamento são aceitas?</h4>
+                  <h5 className='font-medium'>Quais formas de pagamento são aceitas?</h5>
 
                   <p className='text-sm text-zinc-600'>Aceitamos dinheiro, cartões de débito e crédito, e PIX.</p>
                 </div>
