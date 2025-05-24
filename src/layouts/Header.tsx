@@ -7,12 +7,13 @@ export const Header = () => {
   return (
     <header className='sticky top-0 z-50 flex w-full justify-center border-b bg-white'>
       <div className='flex h-16 w-full max-w-[1280px] items-center justify-between px-4 md:px-6'>
-        <Link href='/' className='flex items-center gap-2'>
+        <Link href='/' prefetch className='flex items-center gap-2'>
           <Image
             src='/logo.png'
             alt='4º Ofício de Registro Civil e Notas de Aracaju/SE'
             width={180}
             height={40}
+            priority
             className='h-10 w-auto'
           />
 
@@ -20,26 +21,42 @@ export const Header = () => {
         </Link>
 
         <nav className='hidden gap-6 md:flex'>
-          <Link href='/' className='font-medium text-sm underline-offset-4 hover:underline'>
+          <Link
+            href='/'
+            prefetch
+            className='relative font-medium text-sm after:absolute after:top-7 after:left-1/2 after:h-[1px] after:w-0 after:bg-[#8B0000] after:transition-all after:duration-300 after:ease-in-out after:content-[""] hover:after:left-[13%] hover:after:w-3/4'
+          >
             Início
           </Link>
 
-          <Link href='registro-civil' className='font-medium text-sm underline-offset-4'>
+          <Link
+            href='/registro-civil'
+            prefetch
+            className='relative font-medium text-sm after:absolute after:top-7 after:left-1/2 after:h-[1px] after:w-0 after:bg-[#8B0000] after:transition-all after:duration-300 after:ease-in-out after:content-[""] hover:after:left-[13%] hover:after:w-3/4'
+          >
             Registro Civil
           </Link>
 
-          <Link href='tabelionato' className='font-medium text-sm underline-offset-4'>
+          <Link
+            href='/tabelionato'
+            prefetch
+            className='relative font-medium text-sm after:absolute after:top-7 after:left-1/2 after:h-[1px] after:w-0 after:bg-[#8B0000] after:transition-all after:duration-300 after:ease-in-out after:content-[""] hover:after:left-[13%] hover:after:w-3/4'
+          >
             Tabelionato de Notas
           </Link>
 
-          <Link href='contato' className='font-medium text-sm underline-offset-4'>
+          <Link
+            href='/contato'
+            prefetch
+            className='relative font-medium text-sm after:absolute after:top-7 after:left-1/2 after:h-[1px] after:w-0 after:bg-[#8B0000] after:transition-all after:duration-300 after:ease-in-out after:content-[""] hover:after:left-[13%] hover:after:w-3/4'
+          >
             Contato
           </Link>
 
           <Link
             href='https://www.registrocivil.org.br/'
             target='_blank'
-            className='font-medium text-sm underline-offset-4'
+            className='relative font-medium text-sm after:absolute after:top-7 after:left-1/2 after:h-[1px] after:w-0 after:bg-[#8B0000] after:transition-all after:duration-300 after:ease-in-out after:content-[""] hover:after:left-[13%] hover:after:w-3/4'
           >
             CRC Nacional
           </Link>
@@ -47,7 +64,7 @@ export const Header = () => {
           <Link
             href='https://www.e-notariado.org.br/'
             target='_blank'
-            className='font-medium text-sm underline-offset-4'
+            className='relative font-medium text-sm after:absolute after:top-7 after:left-1/2 after:h-[1px] after:w-0 after:bg-[#8B0000] after:transition-all after:duration-300 after:ease-in-out after:content-[""] hover:after:left-[13%] hover:after:w-3/4'
           >
             E-Notariado
           </Link>
