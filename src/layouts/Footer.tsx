@@ -2,13 +2,13 @@ import { Clock, ExternalLink, Link, Mail, MapPin, Phone } from 'lucide-react'
 
 export const Footer = () => {
   return (
-    <footer id='contato' className='w-full border-t bg-white py-6 md:py-12'>
-      <div className='container px-4 md:px-6'>
+    <footer id='contato' className='flex w-full justify-center border-t bg-white py-6 md:py-12'>
+      <div className='max-w-[1280px] px-4 md:px-6'>
         <div className='grid gap-8 lg:grid-cols-3'>
           <div className='space-y-4'>
             <h3 className='font-medium text-[#8B0000] text-lg'>4º Ofício de Registro Civil e Notas</h3>
 
-            <p className='text-gray-500 text-sm'>
+            <p className='text-sm text-zinc-500'>
               Serventia Extrajudicial de Registro Civil das Pessoas Naturais e Tabelionato de Notas da Comarca de
               Aracaju, Estado de Sergipe.
             </p>
@@ -17,7 +17,7 @@ export const Footer = () => {
           <div className='space-y-4'>
             <h3 className='font-medium text-[#8B0000] text-lg'>Contato</h3>
 
-            <ul className='space-y-2 text-gray-500 text-sm'>
+            <ul className='space-y-2 text-sm text-zinc-500'>
               <li className='flex items-start gap-2'>
                 <MapPin className='mt-0.5 h-5 w-5 shrink-0 text-[#8B0000]' />
                 <span>Av. Exemplo, 1234, Centro, Aracaju/SE - CEP 49000-000</span>
@@ -48,7 +48,7 @@ export const Footer = () => {
                 <Link
                   href='https://www.registrocivil.org.br/'
                   target='_blank'
-                  className='flex items-center gap-1 text-gray-500 hover:text-[#8B0000]'
+                  className='flex items-center gap-1 text-zinc-500 hover:text-[#8B0000]'
                 >
                   <ExternalLink className='h-4 w-4' />
                   <span>CRC Nacional</span>
@@ -59,7 +59,7 @@ export const Footer = () => {
                 <Link
                   href='https://www.e-notariado.org.br/'
                   target='_blank'
-                  className='flex items-center gap-1 text-gray-500 hover:text-[#8B0000]'
+                  className='flex items-center gap-1 text-zinc-500 hover:text-[#8B0000]'
                 >
                   <ExternalLink className='h-4 w-4' />
                   <span>E-Notariado</span>
@@ -70,7 +70,7 @@ export const Footer = () => {
                 <Link
                   href='https://www.tjse.jus.br/'
                   target='_blank'
-                  className='flex items-center gap-1 text-gray-500 hover:text-[#8B0000]'
+                  className='flex items-center gap-1 text-zinc-500 hover:text-[#8B0000]'
                 >
                   <ExternalLink className='h-4 w-4' />
                   <span>Tribunal de Justiça de Sergipe</span>
@@ -81,7 +81,7 @@ export const Footer = () => {
                 <Link
                   href='https://www.cnj.jus.br/'
                   target='_blank'
-                  className='flex items-center gap-1 text-gray-500 hover:text-[#8B0000]'
+                  className='flex items-center gap-1 text-zinc-500 hover:text-[#8B0000]'
                 >
                   <ExternalLink className='h-4 w-4' />
                   <span>Conselho Nacional de Justiça</span>
@@ -92,7 +92,7 @@ export const Footer = () => {
         </div>
 
         <div className='mt-8 border-t pt-6'>
-          <p className='text-center text-gray-500 text-xs'>
+          <p className='text-center text-xs text-zinc-500'>
             © {new Date().getFullYear()} 4º Ofício de Registro Civil e Notas de Aracaju/SE. Todos os direitos
             reservados.
           </p>

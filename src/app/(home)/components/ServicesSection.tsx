@@ -3,17 +3,17 @@ import { ServiceItem } from './ServiceItem'
 
 export const ServicesSection = () => {
   return (
-    <div className='container px-4 py-12 md:px-6'>
-      <section id='registro-civil' className='mb-12'>
+    <div className='flex w-full flex-col items-center px-4 py-12 md:px-6'>
+      <section id='registro-civil' className='mb-12 w-full max-w-[1280px]'>
         <div className='mb-8'>
           <h2 className='mb-2 font-bold text-2xl text-[#8B0000]'>Registro Civil</h2>
 
-          <p className='text-gray-500'>
+          <p className='text-zinc-500'>
             Serviços relacionados a nascimento, casamento, óbito e outros registros civis.
           </p>
         </div>
 
-        <Accordion type='single' collapsible className='w-full'>
+        <Accordion type='multiple' className='w-full'>
           <ServiceItem
             id='certidao-nascimento'
             title='Certidão de Nascimento'
@@ -24,7 +24,7 @@ export const ServicesSection = () => {
               <div>
                 <h4 className='font-medium'>Documentos necessários:</h4>
 
-                <ul className='list-disc pl-5 text-gray-600 text-sm'>
+                <ul className='list-disc pl-5 text-sm text-zinc-600'>
                   <li>Declaração de Nascido Vivo (DNV) emitida pelo hospital</li>
                   <li>Documento de identidade dos pais</li>
                   <li>Certidão de casamento dos pais (se casados)</li>
@@ -33,12 +33,12 @@ export const ServicesSection = () => {
 
               <div>
                 <h4 className='font-medium'>Prazo:</h4>
-                <p className='text-gray-600 text-sm'>Imediato</p>
+                <p className='text-sm text-zinc-600'>Imediato</p>
               </div>
 
               <div>
                 <h4 className='font-medium'>Custo:</h4>
-                <p className='text-gray-600 text-sm'>Gratuito para a primeira via</p>
+                <p className='text-sm text-zinc-600'>Gratuito para a primeira via</p>
               </div>
             </div>
           </ServiceItem>
@@ -53,7 +53,7 @@ export const ServicesSection = () => {
               <div>
                 <h4 className='font-medium'>Documentos necessários:</h4>
 
-                <ul className='list-disc pl-5 text-gray-600 text-sm'>
+                <ul className='list-disc pl-5 text-sm text-zinc-600'>
                   <li>Documento de identidade dos noivos</li>
                   <li>CPF dos noivos</li>
                   <li>Comprovante de residência</li>
@@ -63,12 +63,12 @@ export const ServicesSection = () => {
 
               <div>
                 <h4 className='font-medium'>Prazo:</h4>
-                <p className='text-gray-600 text-sm'>Processo de habilitação: 30 dias</p>
+                <p className='text-sm text-zinc-600'>Processo de habilitação: 30 dias</p>
               </div>
 
               <div>
                 <h4 className='font-medium'>Custo:</h4>
-                <p className='text-gray-600 text-sm'>Consultar tabela de emolumentos</p>
+                <p className='text-sm text-zinc-600'>Consultar tabela de emolumentos</p>
               </div>
             </div>
           </ServiceItem>
@@ -83,7 +83,7 @@ export const ServicesSection = () => {
               <div>
                 <h4 className='font-medium'>Documentos necessários:</h4>
 
-                <ul className='list-disc pl-5 text-gray-600 text-sm'>
+                <ul className='list-disc pl-5 text-sm text-zinc-600'>
                   <li>Declaração de Óbito assinada por médico</li>
                   <li>Documento de identidade do falecido</li>
                   <li>Documento de identidade do declarante</li>
@@ -92,28 +92,28 @@ export const ServicesSection = () => {
 
               <div>
                 <h4 className='font-medium'>Prazo:</h4>
-                <p className='text-gray-600 text-sm'>Imediato</p>
+                <p className='text-sm text-zinc-600'>Imediato</p>
               </div>
 
               <div>
                 <h4 className='font-medium'>Custo:</h4>
-                <p className='text-gray-600 text-sm'>Gratuito para a primeira via</p>
+                <p className='text-sm text-zinc-600'>Gratuito para a primeira via</p>
               </div>
             </div>
           </ServiceItem>
         </Accordion>
       </section>
 
-      <section id='tabelionato' className='mb-12'>
+      <section id='tabelionato' className='mb-12 w-full max-w-[1280px]'>
         <div className='mb-8'>
           <h2 className='mb-2 font-bold text-2xl text-[#8B0000]'>Tabelionato de Notas</h2>
 
-          <p className='text-gray-500'>
+          <p className='text-zinc-500'>
             Serviços relacionados a escrituras, procurações, reconhecimento de firma e autenticações.
           </p>
         </div>
 
-        <Accordion type='single' collapsible className='w-full'>
+        <Accordion type='multiple' className='w-full'>
           <ServiceItem
             id='escritura-publica'
             title='Escritura Pública'
@@ -124,7 +124,7 @@ export const ServicesSection = () => {
               <div>
                 <h4 className='font-medium'>Tipos de Escrituras:</h4>
 
-                <ul className='list-disc pl-5 text-gray-600 text-sm'>
+                <ul className='list-disc pl-5 text-sm text-zinc-600'>
                   <li>Compra e venda</li>
                   <li>Doação</li>
                   <li>Inventário e partilha</li>
@@ -135,14 +135,14 @@ export const ServicesSection = () => {
 
               <div>
                 <h4 className='font-medium'>Documentos necessários:</h4>
-                <p className='text-gray-600 text-sm'>
+                <p className='text-sm text-zinc-600'>
                   Variam conforme o tipo de escritura. Consulte-nos para informações específicas.
                 </p>
               </div>
 
               <div>
                 <h4 className='font-medium'>Custo:</h4>
-                <p className='text-gray-600 text-sm'>
+                <p className='text-sm text-zinc-600'>
                   Varia conforme o valor do bem ou negócio. Consultar tabela de emolumentos.
                 </p>
               </div>
@@ -159,7 +159,7 @@ export const ServicesSection = () => {
               <div>
                 <h4 className='font-medium'>Tipos de Procuração:</h4>
 
-                <ul className='list-disc pl-5 text-gray-600 text-sm'>
+                <ul className='list-disc pl-5 text-sm text-zinc-600'>
                   <li>Procuração ad judicia (para fins judiciais)</li>
                   <li>Procuração para venda de imóveis</li>
                   <li>Procuração para movimentação bancária</li>
@@ -170,7 +170,7 @@ export const ServicesSection = () => {
               <div>
                 <h4 className='font-medium'>Documentos necessários:</h4>
 
-                <ul className='list-disc pl-5 text-gray-600 text-sm'>
+                <ul className='list-disc pl-5 text-sm text-zinc-600'>
                   <li>Documento de identidade do outorgante</li>
                   <li>CPF do outorgante</li>
                   <li>Comprovante de residência</li>
@@ -180,7 +180,7 @@ export const ServicesSection = () => {
 
               <div>
                 <h4 className='font-medium'>Prazo:</h4>
-                <p className='text-gray-600 text-sm'>Imediato ou em até 24h, dependendo da complexidade</p>
+                <p className='text-sm text-zinc-600'>Imediato ou em até 24h, dependendo da complexidade</p>
               </div>
             </div>
           </ServiceItem>
@@ -195,7 +195,7 @@ export const ServicesSection = () => {
               <div>
                 <h4 className='font-medium'>Tipos:</h4>
 
-                <ul className='list-disc pl-5 text-gray-600 text-sm'>
+                <ul className='list-disc pl-5 text-sm text-zinc-600'>
                   <li>Por semelhança (comparação com assinatura cadastrada)</li>
                   <li>Por autenticidade (assinatura feita na presença do tabelião)</li>
                 </ul>
@@ -204,7 +204,7 @@ export const ServicesSection = () => {
               <div>
                 <h4 className='font-medium'>Documentos necessários:</h4>
 
-                <ul className='list-disc pl-5 text-gray-600 text-sm'>
+                <ul className='list-disc pl-5 text-sm text-zinc-600'>
                   <li>Documento original a ser reconhecido</li>
                   <li>Documento de identidade com foto</li>
                 </ul>
@@ -212,12 +212,12 @@ export const ServicesSection = () => {
 
               <div>
                 <h4 className='font-medium'>Prazo:</h4>
-                <p className='text-gray-600 text-sm'>Imediato</p>
+                <p className='text-sm text-zinc-600'>Imediato</p>
               </div>
 
               <div>
                 <h4 className='font-medium'>Custo:</h4>
-                <p className='text-gray-600 text-sm'>Valor fixo por assinatura. Consultar tabela de emolumentos.</p>
+                <p className='text-sm text-zinc-600'>Valor fixo por assinatura. Consultar tabela de emolumentos.</p>
               </div>
             </div>
           </ServiceItem>
@@ -232,7 +232,7 @@ export const ServicesSection = () => {
               <div>
                 <h4 className='font-medium'>Documentos necessários:</h4>
 
-                <ul className='list-disc pl-5 text-gray-600 text-sm'>
+                <ul className='list-disc pl-5 text-sm text-zinc-600'>
                   <li>Documento original</li>
                   <li>Cópia a ser autenticada</li>
                 </ul>
@@ -240,12 +240,12 @@ export const ServicesSection = () => {
 
               <div>
                 <h4 className='font-medium'>Prazo:</h4>
-                <p className='text-gray-600 text-sm'>Imediato</p>
+                <p className='text-sm text-zinc-600'>Imediato</p>
               </div>
 
               <div>
                 <h4 className='font-medium'>Custo:</h4>
-                <p className='text-gray-600 text-sm'>Valor fixo por página. Consultar tabela de emolumentos.</p>
+                <p className='text-sm text-zinc-600'>Valor fixo por página. Consultar tabela de emolumentos.</p>
               </div>
             </div>
           </ServiceItem>

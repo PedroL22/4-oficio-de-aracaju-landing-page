@@ -2,17 +2,17 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '~/
 
 export const FAQSection = () => {
   return (
-    <section className='w-full bg-gray-50 py-12 md:py-24 lg:py-32'>
-      <div className='container px-4 md:px-6'>
-        <div className='mx-auto max-w-[800px] space-y-6'>
+    <section className='flex w-full justify-center bg-zinc-50 py-12 md:py-24 lg:py-32'>
+      <div className='w-full px-4 md:px-6'>
+        <div className='mx-auto w-full max-w-[570px] space-y-6'>
           <div className='space-y-2 text-center'>
             <h2 className='font-bold text-3xl text-[#8B0000] tracking-tighter sm:text-4xl'>Perguntas Frequentes</h2>
 
-            <p className='text-gray-500 md:text-xl'>Respostas para as dúvidas mais comuns sobre nossos serviços.</p>
+            <p className='text-zinc-500 md:text-xl'>Respostas para as dúvidas mais comuns sobre nossos serviços.</p>
           </div>
 
-          <Accordion type='single' collapsible className='w-full'>
-            <AccordionItem value='faq-1' className='mb-4 rounded-lg border border-gray-200 p-1'>
+          <Accordion type='multiple' className='w-full'>
+            <AccordionItem value='faq-1' className='mb-4 rounded-lg p-1 ring ring-zinc-200'>
               <AccordionTrigger className='px-4 py-3 hover:no-underline'>
                 Qual o horário de funcionamento do cartório?
               </AccordionTrigger>
@@ -22,7 +22,7 @@ export const FAQSection = () => {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value='faq-2' className='mb-4 rounded-lg border border-gray-200 p-1'>
+            <AccordionItem value='faq-2' className='mb-4 rounded-lg p-1 ring ring-zinc-200'>
               <AccordionTrigger className='px-4 py-3 hover:no-underline'>
                 É possível agendar atendimento?
               </AccordionTrigger>
@@ -33,7 +33,7 @@ export const FAQSection = () => {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value='faq-3' className='mb-4 rounded-lg border border-gray-200 p-1'>
+            <AccordionItem value='faq-3' className='mb-4 rounded-lg p-1 ring ring-zinc-200'>
               <AccordionTrigger className='px-4 py-3 hover:no-underline'>
                 Quais documentos devo levar para solicitar uma segunda via de certidão?
               </AccordionTrigger>
@@ -45,7 +45,7 @@ export const FAQSection = () => {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value='faq-4' className='mb-4 rounded-lg border border-gray-200 p-1'>
+            <AccordionItem value='faq-4' className='mb-4 rounded-lg p-1 ring ring-zinc-200'>
               <AccordionTrigger className='px-4 py-3 hover:no-underline'>
                 Quanto custam os serviços do cartório?
               </AccordionTrigger>
@@ -56,7 +56,7 @@ export const FAQSection = () => {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value='faq-5' className='mb-4 rounded-lg border border-gray-200 p-1'>
+            <AccordionItem value='faq-5' className='mb-4 rounded-lg p-1 ring ring-zinc-200'>
               <AccordionTrigger className='px-4 py-3 hover:no-underline'>
                 Posso solicitar certidões de outros cartórios?
               </AccordionTrigger>

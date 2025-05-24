@@ -26,8 +26,6 @@ export const MobileNav = () => {
             <line x1='4' x2='20' y1='6' y2='6' />
             <line x1='4' x2='20' y1='18' y2='18' />
           </svg>
-
-          <span className='sr-only'>Menu</span>
         </Button>
       </DialogTrigger>
 
