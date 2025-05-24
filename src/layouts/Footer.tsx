@@ -1,8 +1,10 @@
-import { Clock, ExternalLink, Link, Mail, MapPin, Phone } from 'lucide-react'
+import Link from 'next/link'
+
+import { Clock, Link as LinkIcon, Mail, MapPin, Phone } from 'lucide-react'
 
 export const Footer = () => {
   return (
-    <footer id='contato' className='flex w-full justify-center border-t bg-white py-6 md:py-12'>
+    <footer id='contato' className='flex w-full justify-center border-t bg-zinc-50 py-6 md:py-12'>
       <div className='max-w-[1280px] px-4 md:px-6'>
         <div className='grid gap-8 lg:grid-cols-3'>
           <div className='space-y-4'>
@@ -50,7 +52,7 @@ export const Footer = () => {
                   target='_blank'
                   className='flex items-center gap-1 text-zinc-500 hover:text-[#8B0000]'
                 >
-                  <ExternalLink className='h-4 w-4' />
+                  <LinkIcon className='size-4' />
                   <span>CRC Nacional</span>
                 </Link>
               </li>
@@ -61,7 +63,7 @@ export const Footer = () => {
                   target='_blank'
                   className='flex items-center gap-1 text-zinc-500 hover:text-[#8B0000]'
                 >
-                  <ExternalLink className='h-4 w-4' />
+                  <LinkIcon className='size-4' />
                   <span>E-Notariado</span>
                 </Link>
               </li>
@@ -72,7 +74,7 @@ export const Footer = () => {
                   target='_blank'
                   className='flex items-center gap-1 text-zinc-500 hover:text-[#8B0000]'
                 >
-                  <ExternalLink className='h-4 w-4' />
+                  <LinkIcon className='size-4' />
                   <span>Tribunal de Justiça de Sergipe</span>
                 </Link>
               </li>
@@ -83,7 +85,7 @@ export const Footer = () => {
                   target='_blank'
                   className='flex items-center gap-1 text-zinc-500 hover:text-[#8B0000]'
                 >
-                  <ExternalLink className='h-4 w-4' />
+                  <LinkIcon className='size-4' />
                   <span>Conselho Nacional de Justiça</span>
                 </Link>
               </li>

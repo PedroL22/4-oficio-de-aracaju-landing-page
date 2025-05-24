@@ -3,8 +3,8 @@ import { ServiceItem } from './ServiceItem'
 
 export const ServicesSection = () => {
   return (
-    <div className='flex w-full flex-col items-center px-4 py-12 md:px-6'>
-      <section id='registro-civil' className='mb-12 w-full max-w-[1280px]'>
+    <div className='flex w-full flex-col items-center py-12'>
+      <section id='registro-civil' className='mb-12 w-full max-w-[1280px] px-4 md:px-6'>
         <div className='mb-8'>
           <h2 className='mb-2 font-bold text-2xl text-[#8B0000]'>Registro Civil</h2>
 
@@ -104,7 +104,7 @@ export const ServicesSection = () => {
         </Accordion>
       </section>
 
-      <section id='tabelionato' className='mb-12 w-full max-w-[1280px]'>
+      <section id='tabelionato' className='mb-12 w-full max-w-[1280px] px-4 md:px-6'>
         <div className='mb-8'>
           <h2 className='mb-2 font-bold text-2xl text-[#8B0000]'>Tabelionato de Notas</h2>
 

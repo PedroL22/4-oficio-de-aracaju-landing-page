@@ -1,5 +1,6 @@
 import { FAQSection } from './components/FAQSection'
 import { HeroSection } from './components/HeroSection'
+import { InventorySection } from './components/InventorySection'
 import { ServicesSection } from './components/ServicesSection'
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
       <ServicesSection />
 
       <FAQSection />
+
+      <InventorySection />
     </main>
   )
 }
