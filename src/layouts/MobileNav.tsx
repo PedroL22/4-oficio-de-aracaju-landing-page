@@ -39,15 +39,15 @@ export const MobileNav = () => {
             Início
           </Link>
 
-          <Link href='registro-civil' prefetch className='font-medium text-sm underline-offset-4 hover:underline'>
+          <Link href='/registro-civil' prefetch className='font-medium text-sm underline-offset-4 hover:underline'>
             Registro Civil
           </Link>
 
-          <Link href='tabelionato' prefetch className='font-medium text-sm underline-offset-4 hover:underline'>
+          <Link href='/tabelionato' prefetch className='font-medium text-sm underline-offset-4 hover:underline'>
             Tabelionato de Notas
           </Link>
 
-          <Link href='contato' prefetch className='font-medium text-sm underline-offset-4 hover:underline'>
+          <Link href='/contato' prefetch className='font-medium text-sm underline-offset-4 hover:underline'>
             Contato
           </Link>
 
