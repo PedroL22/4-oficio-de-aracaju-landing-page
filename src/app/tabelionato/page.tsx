@@ -19,11 +19,11 @@ export const metadata = {
 
 export default function Tabelionato() {
   return (
-    <main className='mx-auto flex min-h-screen flex-1 flex-col'>
+    <main className='mx-auto flex flex-1 flex-col'>
       <div className='flex w-full flex-col items-center py-12'>
         <section className='mb-12 w-full max-w-[1280px] px-4 md:px-6'>
           <div className='mb-12'>
-            <h1 className='mb-4 font-bold text-3xl text-[#8B0000]'>Tabelionato de Notas</h1>
+            <h1 className='mb-4 font-bold text-3xl text-[#8B0000]'>📜 Tabelionato de Notas</h1>
 
             <p className='text-lg text-zinc-500'>
               Serviços relacionados a escrituras públicas, procurações, reconhecimento de firma, autenticações e
