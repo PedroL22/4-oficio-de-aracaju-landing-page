@@ -1,5 +1,5 @@
+import { ServiceItem } from '~/components/ServiceItem'
 import { Accordion } from '~/components/ui/accordion'
-import { ServiceItem } from './ServiceItem'
 
 export const ServicesSection = () => {
   return (

@@ -1,5 +1,24 @@
+import { SimpleServiceItem } from '~/components/SimpleServiceItem'
 import { Accordion } from '~/components/ui/accordion'
-import { ServiceItem } from '../(home)/components/ServiceItem'
+
+export const metadata = {
+  title: 'Registro Civil - 4º Ofício de Aracaju',
+  description:
+    'Encontre todos os serviços de registro civil organizados por categoria, incluindo certidões, casamento, alterações e mais.',
+  openGraph: {
+    title: 'Registro Civil - 4º Ofício de Aracaju',
+    description:
+      'Encontre todos os serviços de registro civil organizados por categoria, incluindo certidões, casamento, alterações e mais.',
+    images: ['/logotype.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Registro Civil - 4º Ofício de Aracaju',
+    description:
+      'Encontre todos os serviços de registro civil organizados por categoria, incluindo certidões, casamento, alterações e mais.',
+    images: ['/logotype.png'],
+  },
+}
 
 export default function RegistroCivil() {
   return (
@@ -15,11 +34,10 @@ export default function RegistroCivil() {
           </div>
 
           <Accordion type='multiple' className='w-full space-y-6'>
-            <ServiceItem
+            <SimpleServiceItem
               id='certidoes'
               title='Certidões'
               description='2ª via de certidão, certidão com averbação, certidão de inteiro teor e informações sobre gratuidade.'
-              pdfLink='/docs/certidoes.pdf'
             >
               <div className='space-y-6'>
                 <div>
@@ -69,13 +87,12 @@ export default function RegistroCivil() {
                   </p>
                 </div>
               </div>
-            </ServiceItem>
+            </SimpleServiceItem>
 
-            <ServiceItem
+            <SimpleServiceItem
               id='casamento-civil'
               title='Casamento Civil'
               description='Casamento tradicional, religioso com efeito civil, fora do fórum, com estrangeiro e todos os requisitos.'
-              pdfLink='/docs/casamento.pdf'
             >
               <div className='space-y-6'>
                 <div>
@@ -136,13 +153,12 @@ export default function RegistroCivil() {
                   </p>
                 </div>
               </div>
-            </ServiceItem>
+            </SimpleServiceItem>
 
-            <ServiceItem
+            <SimpleServiceItem
               id='alteracoes-averbacoes'
               title='Alterações e Averbações'
               description='Alteração de nome, prenome ou gênero, averbação de divórcio, mudança de patronímico e averbações judiciais.'
-              pdfLink='/docs/alteracoes-averbacoes.pdf'
             >
               <div className='space-y-6'>
                 <div>
@@ -196,13 +212,12 @@ export default function RegistroCivil() {
                   </p>
                 </div>
               </div>
-            </ServiceItem>
+            </SimpleServiceItem>
 
-            <ServiceItem
+            <SimpleServiceItem
               id='retificacao'
               title='Retificação de Certidão'
               description='Correção de erros ou informações incorretas em registros civis.'
-              pdfLink='/docs/retificacao.pdf'
             >
               <div className='space-y-6'>
                 <div>
@@ -241,13 +256,12 @@ export default function RegistroCivil() {
                   </p>
                 </div>
               </div>
-            </ServiceItem>
+            </SimpleServiceItem>
 
-            <ServiceItem
+            <SimpleServiceItem
               id='reconhecimento-socioafetivo'
               title='Reconhecimento Socioafetivo'
               description='Reconhecimento de paternidade ou maternidade baseada em vínculo afetivo comprovado.'
-              pdfLink='/docs/reconhecimento-socioafetivo.pdf'
             >
               <div className='space-y-6'>
                 <div>
@@ -288,13 +302,12 @@ export default function RegistroCivil() {
                   </p>
                 </div>
               </div>
-            </ServiceItem>
+            </SimpleServiceItem>
 
-            <ServiceItem
+            <SimpleServiceItem
               id='registro-nascimento'
               title='Registro de Nascimento'
               description='Registro de nascimento, incluindo situações especiais como pais menores de idade e autorização judicial.'
-              pdfLink='/docs/registro-nascimento.pdf'
             >
               <div className='space-y-6'>
                 <div>
@@ -348,13 +361,12 @@ export default function RegistroCivil() {
                   </p>
                 </div>
               </div>
-            </ServiceItem>
+            </SimpleServiceItem>
 
-            <ServiceItem
+            <SimpleServiceItem
               id='buscas-malote'
               title='Buscas / Malote'
               description='Solicitação de busca de registros, consulta por Malote Digital e certidão negativa.'
-              pdfLink='/docs/buscas-malote.pdf'
             >
               <div className='space-y-6'>
                 <div>
@@ -409,7 +421,7 @@ export default function RegistroCivil() {
                   </p>
                 </div>
               </div>
-            </ServiceItem>
+            </SimpleServiceItem>
           </Accordion>
         </section>
       </div>
