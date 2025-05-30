@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className='max-w-[1280px] px-4 md:px-6'>
         <div className='grid gap-8 lg:grid-cols-3'>
           <div className='space-y-4'>
-            <h3 className='font-medium text-[#8B0000] text-lg'>4º Ofício de Registro Civil e Notas</h3>
+            <span className='font-medium text-[#8B0000] text-lg'>4º Ofício de Registro Civil e Notas</span>
 
             <p className='text-sm text-zinc-500'>
               Serventia Extrajudicial de Registro Civil das Pessoas Naturais e Tabelionato de Notas da Comarca de
@@ -17,7 +17,7 @@ export const Footer = () => {
           </div>
 
           <div className='space-y-4'>
-            <h3 className='font-medium text-[#8B0000] text-lg'>Contato</h3>
+            <span className='font-medium text-[#8B0000] text-lg'>Contato</span>
 
             <ul className='space-y-2 text-sm text-zinc-500'>
               <li className='flex items-start gap-2'>
@@ -43,7 +43,7 @@ export const Footer = () => {
           </div>
 
           <div className='space-y-4'>
-            <h3 className='font-medium text-[#8B0000] text-lg'>Links Úteis</h3>
+            <span className='font-medium text-[#8B0000] text-lg'>Links Úteis</span>
 
             <ul className='space-y-2 text-sm'>
               <li>
