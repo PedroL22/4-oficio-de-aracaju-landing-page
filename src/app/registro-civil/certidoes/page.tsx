@@ -22,14 +22,52 @@ export default function Certidoes() {
     <main className='mx-auto flex min-h-screen flex-1 flex-col'>
       <div className='flex w-full flex-col items-center py-12'>
         <section className='mb-12 w-full max-w-[1280px] px-4 md:px-6'>
-          <div className='mb-12'>
-            <h1 className='mb-4 font-bold text-3xl text-[#8B0000]'>📄 Certidões (2ª via, Inteiro Teor e Gratuidade)</h1>
+          <div className='mb-12 flex min-h-[40vh] flex-col justify-center rounded-lg border bg-white p-8 shadow-sm'>
+            <h1 className='mb-4 font-bold text-4xl text-[#8B0000]'>Certidões</h1>
 
-            <p className='text-lg text-zinc-500'>
-              Solicite aqui a 2ª via da sua certidão de nascimento, casamento ou óbito. Você pode pedir a certidão
-              presencialmente no cartório ou online via CRC Nacional. Algumas situações permitem gratuidade, mediante
-              comprovação de hipossuficiência.
-            </p>
+            <p className='mb-6 text-xl text-zinc-600'>Entenda, baixe o tutorial e resolva em minutos</p>
+
+            <div className='mb-8'>
+              <a
+                href='/docs/tutorial-crc.pdf'
+                target='_blank'
+                rel='noreferrer'
+                className='inline-flex items-center gap-2 rounded-lg bg-[#8B0000] px-6 py-3 font-medium text-white transition-colors hover:bg-[#6B0000]'
+              >
+                📄 Baixar Tutorial CRC (PDF)
+              </a>
+            </div>
+
+            <div className='border-t pt-6'>
+              <h2 className='mb-4 font-semibold text-[#8B0000] text-xl'>Resumo Rápido</h2>
+
+              <ul className='space-y-3 text-sm'>
+                <li className='flex items-center gap-2'>
+                  <span className='text-green-600'>✅</span>
+                  <span>
+                    <strong>Tipos:</strong> 2ª via comum, inteiro teor, com averbação, gratuita
+                  </span>
+                </li>
+                <li className='flex items-center gap-2'>
+                  <span className='text-blue-600'>📑</span>
+                  <span>
+                    <strong>Como pedir:</strong> Presencial no cartório ou online via CRC
+                  </span>
+                </li>
+                <li className='flex items-center gap-2'>
+                  <span className='text-orange-600'>⚠️</span>
+                  <span>
+                    <strong>Prazo:</strong> Mesmo dia (presencial) ou 48h (online)
+                  </span>
+                </li>
+                <li className='flex items-center gap-2'>
+                  <span className='text-purple-600'>💰</span>
+                  <span>
+                    <strong>Valores:</strong> A partir de R$ 71,65 (2ª via comum)
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className='space-y-12'>
@@ -224,7 +262,7 @@ export default function Certidoes() {
             </div>
 
             <div className='rounded-lg border border-amber-200 bg-amber-50 p-6'>
-              <div className='flex items-start gap-3'>
+              <div className='flex items-start gap-2'>
                 <span className='text-amber-600 text-xl'>⚠️</span>
 
                 <div>
@@ -265,6 +303,27 @@ export default function Certidoes() {
                   <p className='mb-2 font-medium text-[#8B0000]'>Quem pode pedir a certidão?</p>
                   <p className='text-sm text-zinc-600'>Qualquer pessoa com os dados corretos do registrado.</p>
                 </div>
+              </div>
+            </div>
+
+            <div className='p-6 text-center'>
+              <h3 className='mb-4 font-semibold text-[#8B0000] text-lg'>Precisa de mais informações?</h3>
+              <p className='mb-6 text-sm text-zinc-600'>
+                Nossa equipe está pronta para esclarecer suas dúvidas sobre certidões.
+              </p>
+              <div className='flex flex-col gap-4 sm:flex-row sm:justify-center'>
+                <a
+                  href='tel:+557932591020'
+                  className='inline-flex items-center justify-center gap-2 rounded-lg bg-[#8B0000] px-6 py-3 font-medium text-white transition-colors hover:bg-[#6B0000]'
+                >
+                  📞 Ligar: (79) 3259-1020
+                </a>
+                <a
+                  href='mailto:registrocivil@cartorio4oficioaju.com.br'
+                  className='inline-flex items-center justify-center gap-2 rounded-lg border border-[#8B0000] px-6 py-3 font-medium text-[#8B0000] transition-colors hover:bg-[#8B0000] hover:text-white'
+                >
+                  ✉️ Enviar E-mail
+                </a>
               </div>
             </div>
           </div>

@@ -25,12 +25,41 @@ export default function RegistroCivil() {
     <main className='mx-auto flex flex-1 flex-col'>
       <div className='flex w-full flex-col items-center py-12'>
         <section className='mb-12 w-full max-w-[1280px] px-4 md:px-6'>
-          <div className='mb-8'>
-            <h1 className='mb-4 font-bold text-3xl text-[#8B0000]'>Registro Civil</h1>
+          <div className='mb-12 flex min-h-[40vh] flex-col justify-center rounded-lg border bg-white p-8 shadow-sm'>
+            <h1 className='mb-4 font-bold text-4xl text-[#8B0000]'>Registro Civil</h1>
 
-            <p className='text-lg text-zinc-500'>
-              Todos os serviços de registro civil organizados por categoria para facilitar sua busca.
-            </p>
+            <p className='mb-6 text-xl text-zinc-600'>Todos os serviços organizados para facilitar sua busca</p>
+
+            <div className='border-t pt-6'>
+              <h2 className='mb-4 font-semibold text-[#8B0000] text-xl'>Serviços Disponíveis</h2>
+
+              <ul className='space-y-3 text-sm'>
+                <li className='flex items-center gap-2'>
+                  <span className='text-green-600'>✅</span>
+                  <span>
+                    <strong>Certidões:</strong> 2ª via, inteiro teor, com averbação, gratuitas
+                  </span>
+                </li>
+                <li className='flex items-center gap-2'>
+                  <span className='text-blue-600'>📑</span>
+                  <span>
+                    <strong>Casamento Civil:</strong> Tradicional, religioso, fora do fórum
+                  </span>
+                </li>
+                <li className='flex items-center gap-2'>
+                  <span className='text-orange-600'>⚠️</span>
+                  <span>
+                    <strong>Alterações:</strong> Averbações, retificações, correções
+                  </span>
+                </li>
+                <li className='flex items-center gap-2'>
+                  <span className='text-purple-600'>💰</span>
+                  <span>
+                    <strong>Outros:</strong> Reconhecimento, nascimento, buscas
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <Accordion type='multiple' className='w-full space-y-6'>
@@ -423,6 +452,27 @@ export default function RegistroCivil() {
               </div>
             </SimpleServiceItem>
           </Accordion>
+
+          <div className='p-6 text-center'>
+            <h3 className='mb-4 font-semibold text-[#8B0000] text-lg'>Precisa de mais informações?</h3>
+            <p className='mb-6 text-sm text-zinc-600'>
+              Nossa equipe está pronta para esclarecer suas dúvidas sobre nossos serviços.
+            </p>
+            <div className='flex flex-col gap-4 sm:flex-row sm:justify-center'>
+              <a
+                href='tel:+557932591020'
+                className='inline-flex items-center justify-center gap-2 rounded-lg bg-[#8B0000] px-6 py-3 font-medium text-white transition-colors hover:bg-[#6B0000]'
+              >
+                📞 Ligar: (79) 3259-1020
+              </a>
+              <a
+                href='mailto:registrocivil@cartorio4oficioaju.com.br'
+                className='inline-flex items-center justify-center gap-2 rounded-lg border border-[#8B0000] px-6 py-3 font-medium text-[#8B0000] transition-colors hover:bg-[#8B0000] hover:text-white'
+              >
+                ✉️ Enviar E-mail
+              </a>
+            </div>
+          </div>
         </section>
       </div>
     </main>
